@@ -1,0 +1,23 @@
+p {
+    font-family: Lato;
+  }
+  
+  .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: rgb(105, 221, 125);
+  }
+  
+  .box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+    border: 2px dashed rgb(0, 113, 206);
+  }
+  
+  .hovered {
+    background: red;
+  }

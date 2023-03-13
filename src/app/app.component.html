@@ -1,0 +1,15 @@
+<div class="container">
+	<div  #box 
+    class="box"
+    [class.hovered]="hovered" 
+    (mouseover)="onMouseOver($event)" 
+    (mouseout)="onMouseOut($event)">
+    
+  </div>
+
+</div>
+
+<h3 style="margin-left: 20%;">mouseover the box: {{hovered}}</h3><br>
+<br>
+<button type="button"  style="margin-left: 20%;" class="btn btn-success" (click)="onClick()" >submit</button><br>
+<mat-slide-toggle>Toggle me!</mat-slide-toggle>
